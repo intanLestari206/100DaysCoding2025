@@ -86,16 +86,15 @@ public class soal3 {
         double luasL = phi*(nilair*nilair);
         double keliling = 2* phi*nilair;
         
-        System.out.println("luas keliling :"+ luasL);
-        System.out.println("keliling "+ keliling);
+        System.out.println("Jadi, luas Lingkaran adalah "+luasL+"cm2 dan keliling lingkaran adalah "+keliling+"cm jika nilai r- nya adalah "+nilair+"cm");
         
         System.out.print("Masukkan lagi nilai: ");
         nilair = sc.nextDouble();
          
          luasL = phi*(nilair*nilair);
          keliling = 2* phi*nilair;
-        System.out.println("Luas keliling : "+luasL);
-        System.out.println("Keliling : "+keliling);
+         System.out.println("jika nilai r kali ini adalah "+nilair+"cm, maka luas lingkaran adalah "+luasL+"cm2 dan keliling lingkaran adalah "+keliling+"cm");
+
         
         
     }
