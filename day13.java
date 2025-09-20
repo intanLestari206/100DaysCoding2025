@@ -82,7 +82,7 @@ public class soal3 {
         Scanner sc = new Scanner (System.in);
         System.out.print("Masukkan nilai: ");
         double nilair = sc.nextDouble();
-        double phi = 3.14;
+        final double phi = 3.14;
         double luasL = phi*(nilair*nilair);
         double keliling = 2* phi*nilair;
         
@@ -91,7 +91,7 @@ public class soal3 {
         
         System.out.print("Masukkan lagi nilai: ");
         nilair = sc.nextDouble();
-          phi = 3.14;
+         
          luasL = phi*(nilair*nilair);
          keliling = 2* phi*nilair;
         System.out.println("Luas keliling : "+luasL);
