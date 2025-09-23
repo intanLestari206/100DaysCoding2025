@@ -4,8 +4,8 @@ public class Day16 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Jumlah Bus: ");
         int bus = sc.nextInt();
-        int kapasitas = 50;
-        int biaya = 7500000;
+        final int kapasitas = 50;
+        final int biaya = 7500000;
         int totalKapasitas = bus*kapasitas;
         int totalBiaya = bus * biaya;
         int biayaRata = totalBiaya / kapasitas;
