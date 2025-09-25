@@ -3,7 +3,7 @@ public class day18 {
         int hargaBarang = 150000;
         double pajak = 16500.50;
         double hargarBarangdesimsl = hargaBarang;
-        Double totalBayar = pajak + hargarBarangdesimsl;
+        double totalBayar = pajak + hargarBarangdesimsl;
         System.out.println(totalBayar);
     }
     
