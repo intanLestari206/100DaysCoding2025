@@ -17,8 +17,8 @@ public class day20 {
         String id3 = kry + Integer.toString(tahunMasuk)+"-"+Integer.toOctalString(noUrut);
         
         System.out.println("ID Karyawan (Cara 1): "+ id1);
-        System.out.println("ID Karyawan (Cara 1): "+ id2);
-        System.out.println("ID Karyawan (Cara 1): "+ id3);
+        System.out.println("ID Karyawan (Cara 2): "+ id2);
+        System.out.println("ID Karyawan (Cara 3): "+ id3);
     }
     
 }
