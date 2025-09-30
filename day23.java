@@ -8,7 +8,7 @@ public class day23 {
         int lebar = sc.nextInt();
         
         int luas = panjang * lebar;
-        System.out.println("Luas Persegi Panjang dari panjang "+panjang+" cm dan lebar "+lebar+" cm adalah "+luas+" cm.");
+        System.out.println("Luas Persegi Panjang, dengan panjang "+panjang+" cm dan lebar "+lebar+" cm Memiliki Luas: "+luas+" cm.");
             }
     
 }
