@@ -10,7 +10,7 @@ public class day29 {
         int berat = sc.nextInt();
         
         boolean stinggi = tinggi > 150;
-        boolean sberat = berat > 80;
+        boolean sberat = berat < 80;
         
         System.out.println("Tinggi badan : "+ tinggi+" cm");
         System.out.println("Berat badan : "+ berat+" kg");
