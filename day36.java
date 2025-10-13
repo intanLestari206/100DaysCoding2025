@@ -8,7 +8,7 @@ public class day36 {
         boolean kartuAkses = sc.nextBoolean();
 
         if (kartuAkses) {
-            System.out.print("Apakah Anda sedang dalam jadwal piket hari ini? (true/false): ");
+            System.out.print("===Kartu Akses Valid===\nApakah Anda sedang dalam jadwal piket hari ini? (true/false): ");
             boolean jadwalPiket = sc.nextBoolean();
 
             if (jadwalPiket) {
