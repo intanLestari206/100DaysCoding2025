@@ -17,8 +17,6 @@ public class day44 {
         String matkul2 = sc.nextLine();
         System.out.print("Masukkan nilai (0-100): ");
         int nilai2 = sc.nextInt();
-        System.out.println("=== Hasil Pembelajaran Semester ===");
-        System.out.println("Nama Mahasiswa: "+nama);
         double mean = (nilai1+nilai2)/2;
         String predikat, status;
         if (mean > 90 && mean <= 100) {
