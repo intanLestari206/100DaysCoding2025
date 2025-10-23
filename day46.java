@@ -33,7 +33,7 @@ public class day46 {
                 System.out.println("Maret");
                 if (tanggal >= 1 && tanggal <= 20) {
                     System.out.println("Zodioak Anda adalah Pisces");
-                }else if(tanggal >= 20 && tanggal <= 31){
+                }else if(tanggal >= 21 && tanggal <= 31){
                     System.out.println("Zodioak Anda adalah Aries");       
                 }else{
                     System.out.println("Tanggal tidak valid");
@@ -41,9 +41,9 @@ public class day46 {
                  break;
              case 4:
                 System.out.println("April");
-                if (tanggal >= 1 && tanggal <= 19) {
+                if (tanggal >= 1 && tanggal <= 20) {
                     System.out.println("Zodioak Anda adalah Aries");
-                }else if(tanggal >= 20 && tanggal <= 31){
+                }else if(tanggal >= 21 && tanggal <= 30){
                     System.out.println("Zodioak Anda adalah Taurus");       
                 }else{
                     System.out.println("Tanggal tidak valid");
@@ -51,9 +51,9 @@ public class day46 {
                 break;
              case 5:
                 System.out.println("Mei");
-                if (tanggal >= 1 && tanggal <= 19) {
+                if (tanggal >= 1 && tanggal <= 20) {
                     System.out.println("Zodioak Anda adalah Taurus");
-                }else if(tanggal >= 20 && tanggal <= 31){
+                }else if(tanggal >= 21 && tanggal <= 30){
                     System.out.println("Zodioak Anda adalah Gemini");       
                 }else{
                     System.out.println("Tanggal tidak valid");
@@ -61,9 +61,9 @@ public class day46 {
                 break;
              case 6:
                 System.out.println("Juni");
-                if (tanggal >= 1 && tanggal <= 19) {
+                if (tanggal >= 1 && tanggal <= 20) {
                     System.out.println("Zodioak Anda adalah Gemini");
-                }else if(tanggal >= 20 && tanggal <= 31){
+                }else if(tanggal >= 21 && tanggal <= 30){
                     System.out.println("Zodioak Anda adalah Cancer");       
                 }else{
                     System.out.println("Tanggal tidak valid");
@@ -71,9 +71,9 @@ public class day46 {
                 break;
              case 7:
                 System.out.println("Juli");
-                if (tanggal >= 1 && tanggal <= 19) {
+                if (tanggal >= 1 && tanggal <= 22) {
                     System.out.println("Zodioak Anda adalah Cancer");
-                }else if(tanggal >= 20 && tanggal <= 31){
+                }else if(tanggal >= 23 && tanggal <= 31){
                     System.out.println("Zodioak Anda adalah Leo");       
                 }else{
                     System.out.println("Tanggal tidak valid");
@@ -81,9 +81,9 @@ public class day46 {
                 break;
              case 8:
                 System.out.println("Agustus");
-                if (tanggal >= 1 && tanggal <= 18) {
+                if (tanggal >= 1 && tanggal <= 22) {
                     System.out.println("Zodioak Anda adalah Leo");
-                }else if(tanggal >= 19 && tanggal <= 29){
+                }else if(tanggal >= 23 && tanggal <= 31){
                     System.out.println("Zodioak Anda adalah Virgo");       
                 }else{
                     System.out.println("Tanggal tidak valid");
@@ -91,9 +91,9 @@ public class day46 {
                 break;
              case 9:
                 System.out.println("September");
-                if (tanggal >= 1 && tanggal <= 20) {
+                if (tanggal >= 1 && tanggal <= 22) {
                     System.out.println("Zodioak Anda adalah Virgo");
-                }else if(tanggal >= 20 && tanggal <= 31){
+                }else if(tanggal >= 23 && tanggal <= 31){
                     System.out.println("Zodioak Anda adalah Libra");       
                 }else{
                     System.out.println("Tanggal tidak valid");
@@ -101,9 +101,9 @@ public class day46 {
                  break;
              case 10:
                 System.out.println("Oktober");
-                if (tanggal >= 1 && tanggal <= 19) {
+                if (tanggal >= 1 && tanggal <= 22) {
                     System.out.println("Zodioak Anda adalah Libre");
-                }else if(tanggal >= 20 && tanggal <= 31){
+                }else if(tanggal >= 23 && tanggal <= 31){
                     System.out.println("Zodioak Anda adalah Scorpio");       
                 }else{
                     System.out.println("Tanggal tidak valid");
@@ -111,9 +111,9 @@ public class day46 {
                 break;
              case 11:
                 System.out.println("November");
-                if (tanggal >= 1 && tanggal <= 19) {
+                if (tanggal >= 1 && tanggal <= 21) {
                     System.out.println("Zodioak Anda adalah Scorpio");
-                }else if(tanggal >= 20 && tanggal <= 31){
+                }else if(tanggal >= 22 && tanggal <= 31){
                     System.out.println("Zodioak Anda adalah Sagitarius");       
                 }else{
                     System.out.println("Tanggal tidak valid");
