@@ -8,7 +8,7 @@ public class day48 {
         System.out.print("Masukkan angka pertama: ");
         double angka1 = sc.nextDouble();
 
-        System.out.print("Masukkan operator (+, -, *, /): ");
+        System.out.print("Masukkan operator (+, -, *, /,%): ");
         char operator = sc.next().charAt(0);
 
         System.out.print("Masukkan angka kedua: ");
@@ -44,7 +44,7 @@ public class day48 {
                 }
                 break;
             default:
-                System.out.println("\nOperator tidak dikenali. Gunakan +, -, *, atau /.");
+                System.out.println("\nOperator tidak dikenali. Gunakan +, -, *, %, atau /.");
                 valid = false;
         }
 
