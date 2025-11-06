@@ -22,7 +22,7 @@ public class day60 {
                 System.out.print(i + " ");
             }
         }
-
+        System.out.println("");
       
     }
 }
