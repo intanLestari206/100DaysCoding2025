@@ -8,9 +8,14 @@ public class day83 {
          for (int i = 0; i < data.length; i++) {
              System.out.print("Hari ke-"+(i+1)+": ");
              data[i]= sc.nextInt();
+             
+        }
+         System.out.println("--- Rincian Pengeluaran ---");
+         for (int i = 0; i < data.length; i++) {
+             System.out.println("hari ke-"+(i+1)+": Rp"+data[i]);
              sum += data[i];
         }
-       
-        System.out.println("Total Pengeluaran Seminggu: "+sum);
+         System.out.println("-------------------");
+        System.out.println("Total: "+sum);
     }
 }
