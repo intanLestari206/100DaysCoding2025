@@ -11,6 +11,6 @@ public class day83 {
              sum += data[i];
         }
        
-        System.out.println("Total: "+sum);
+        System.out.println("Total Pengeluaran Seminggu: "+sum);
     }
 }
